@@ -69,7 +69,7 @@ JarvisAI/
 # ১. Virtual environment (optional কিন্তু ভালো)
 python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
-
+curl -fsSL https://ollama.com/install.sh | sh; 
 # ২. প্যাকেজ ইন্সটল
 pip install -r requirements.txt
 
